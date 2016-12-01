@@ -2,7 +2,7 @@
 
 ((SK)K) 	= I = én i hver linje, afslutningsvis
 (K((SK)K))	= ^ = (K(I))
-((S((S(KS))K)) 	= ? = x's værdi repræsenteret i antal gentagelser
+(S((S(KS))K)) 	= ? = x's værdi repræsenteret i antal gentagelser
 
 1¹ = (S(K((S((S(KS))K))(K((SK)K)))))  ((SK)K)
 2¹ = (S(K((S((S(KS))K))((S((S(KS))K)) (K((SK)K)))))) ((SK)K)
@@ -12,10 +12,10 @@
 
 
 1¹ (reduceret efter ovenstående "regler") = (S(K( x ¹ )))  I
-2¹ (reduceret efter ovenstående "regler") = (S(K( x x ¹ ))) I
-3¹ (reduceret efter ovenstående "regler") = (S(K( x x x ¹ ))) I
-4¹ (reduceret efter ovenstående "regler") = (S(K( x x x x ¹ ))) I
-5¹ (reduceret efter ovenstående "regler") = (S(K( x x x x x ¹ ))) I
+2¹ (reduceret efter ovenstående "regler") = (S(K( x ( x ¹ )))) I
+3¹ (reduceret efter ovenstående "regler") = (S(K( x ( x ( x ¹ ))))) I
+4¹ (reduceret efter ovenstående "regler") = (S(K( x ( x ( x ( x ¹ )))))) I
+5¹ (reduceret efter ovenstående "regler") = (S(K( x ( x ( x ( x ( x ¹ ))))))) I
 
 _________________________
 
@@ -24,7 +24,7 @@ _________________________
 
 ((SK)K)		 	= I = én i hver linje, afslutningsvis (I)
 (K((SK)K) 		= ^ = potensen udtrykt i antal gentagelser (K(I)) er ^pow
-((S((S(KS))K)) 		= x = x's værdi repræsenteret i antal gentagelser (x)
+(S((S(KS))K)) 		= x = x's værdi repræsenteret i antal gentagelser (x)
 (S(K((S((S(KS))K))	= ? = no idea (S(K(x)))
 
 1² = (S(K((S((S(KS))K))(K((SK)K)))))  ((S(K((S((S(KS))K))(K((SK)K))))) ((SK)K))
@@ -32,6 +32,6 @@ _________________________
 3² = (S(K((S((S(KS))K))((S((S(KS))K)) ((S((S(KS))K))(K((SK)K)))))))((S(K((S((S(KS))K))((S((S(KS))K))((S((S(KS))K))(K((SK)K))))))) ((SK)K))
 
 
-1² (reduceret efter ovenstående "regler") = (S(K( x ² ))))      ((S(K( x ² )))) I )
-2² (reduceret efter ovenstående "regler") = (S(K( x x ² )))))   ((S(K( x x ² ))))) I )
-3² (reduceret efter ovenstående "regler") = (S(K( x x x ² ))))))((S(K( x x x ² )))))) I )
+1² (reduceret efter ovenstående "regler") = (S(K( x ² ))))          ((S(K( x ² )))) I )
+2² (reduceret efter ovenstående "regler") = (S(K( x ( x ² )))))     ((S(K( x ( x ² ))))) I )
+3² (reduceret efter ovenstående "regler") = (S(K( x ( x ( x ² ))))))((S(K( x ( x ( x ² )))))) I )
