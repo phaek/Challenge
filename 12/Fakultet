@@ -1,0 +1,18 @@
+β-reduceret fakultetsfunktion:
+
+! = [snipped]
+
+Bruges: !n
+
+laptop@rasmus:~/Desktop$ java X constant < fac1
+1
+laptop@rasmus:~/Desktop$ java X constant < fac2
+2
+laptop@rasmus:~/Desktop$ java X constant < fac3
+6
+laptop@rasmus:~/Desktop$ java X constant < fac4
+24
+laptop@rasmus:~/Desktop$ java X constant < fac5
+120
+laptop@rasmus:~/Desktop$ java X constant < fac6
+720
