@@ -1,10 +1,10 @@
 (λx.x¹) 
 
 1¹ = (S(K((S((S(KS))K))(K((SK)K)))))((SK)K)
-2¹ = (S(K((S((S(KS))K))((S((S(KS))K)) (K((SK)K)))))) ((SK)K)
-3¹ = (S(K((S((S(KS))K))((S((S(KS))K)) ((S((S(KS))K))(K((SK)K))))))) ((SK)K)
-4¹ = (S(K((S((S(KS))K))((S((S(KS))K)) ((S((S(KS))K))((S((S(KS))K))(K((SK)K))))))))((SK)K)
-5¹ = (S(K((S((S(KS))K))((S((S(KS))K)) ((S((S(KS))K))((S((S(KS))K))((S((S(KS))K))(K((SK)K))))))))) ((SK)K)
+2¹ = (S(K((S((S(KS))K))((S((S(KS))K))(K((SK)K))))))((SK)K)
+3¹ = (S(K((S((S(KS))K))((S((S(KS))K))((S((S(KS))K))(K((SK)K)))))))((SK)K)
+4¹ = (S(K((S((S(KS))K))((S((S(KS))K))((S((S(KS))K))((S((S(KS))K))(K((SK)K))))))))((SK)K)
+5¹ = (S(K((S((S(KS))K))((S((S(KS))K))((S((S(KS))K))((S((S(KS))K))((S((S(KS))K))(K((SK)K)))))))))((SK)K)
 
 
 1¹ β -> (S(K((x)                (0))))     I
