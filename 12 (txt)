@@ -1,22 +1,21 @@
 (λx.x¹) 
 
 ((SK)K)		 	=  I  = én i hver linje, afslutningsvis (I)
-(K((SK)K) 		=  0  = X.java siger KI = zero
-(S((S(KS))K)) 		=  x  = x's værdi repræsenteret i antal gentagelser (x)
-(S(K((S((S(KS))K))	= i+1 = (S(K(x)))
+K((SK)K) 		=  0  = X.java siger KI = zero
+S((S(KS))K) 		=  x  = x's værdi repræsenteret i antal gentagelser (x)
 
-1¹ = (S(K((S((S(KS))K))(K((SK)K)))))  ((SK)K)
+1¹ = (S(K((S((S(KS))K))(K((SK)K)))))((SK)K)
 2¹ = (S(K((S((S(KS))K))((S((S(KS))K)) (K((SK)K)))))) ((SK)K)
 3¹ = (S(K((S((S(KS))K))((S((S(KS))K)) ((S((S(KS))K))(K((SK)K))))))) ((SK)K)
 4¹ = (S(K((S((S(KS))K))((S((S(KS))K)) ((S((S(KS))K))((S((S(KS))K))(K((SK)K))))))))((SK)K)
 5¹ = (S(K((S((S(KS))K))((S((S(KS))K)) ((S((S(KS))K))((S((S(KS))K))((S((S(KS))K))(K((SK)K))))))))) ((SK)K)
 
 
-1¹ (reduceret efter ovenstående "regler") = (S(K( x ( 0 ))))  I
-2¹ (reduceret efter ovenstående "regler") = (S(K( x ( x ( 0 ))))) I
-3¹ (reduceret efter ovenstående "regler") = (S(K( x ( x ( x ( 0 )))))) I
-4¹ (reduceret efter ovenstående "regler") = (S(K( x ( x ( x ( x ( 0 ))))))) I
-5¹ (reduceret efter ovenstående "regler") = (S(K( x ( x ( x ( x ( x ( 0 )))))))) I
+1¹ (reduceret efter ovenstående "regler") = (S(K((x)                (0))))  I
+2¹ (reduceret efter ovenstående "regler") = (S(K((x)((x)            (0))))) I
+3¹ (reduceret efter ovenstående "regler") = (S(K((x)((x)((x)        (0)))))) I
+4¹ (reduceret efter ovenstående "regler") = (S(K((x)((x)((x)((x)    (0))))))) I
+5¹ (reduceret efter ovenstående "regler") = (S(K((x)((x)((x)((x)((x)(0)))))))) I
 
 _________________________
 
@@ -24,15 +23,19 @@ _________________________
 (λx.x²)
 
 ((SK)K)		 	=  I  = én i hver linje, afslutningsvis (I)
-(K((SK)K) 		=  0  = X.java siger KI = zero
-(S((S(KS))K)) 		=  x  = x's værdi repræsenteret i antal gentagelser (x)
-(S(K((S((S(KS))K))	= i+1 = (S(K(x)))
+K((SK)K) 		=  0  = X.java siger KI = zero
+S((S(KS))K) 		=  x  = x's værdi repræsenteret i antal gentagelser (x)
 
-1² = (S(K((S((S(KS))K))(K((SK)K)))))  ((S(K((S((S(KS))K))(K((SK)K))))) ((SK)K))
-2² = (S(K((S((S(KS))K))((S((S(KS))K)) (K((SK)K))))))((S(K((S((S(KS))K))((S((S(KS))K))(K((SK)K)))))) ((SK)K))
-3² = (S(K((S((S(KS))K))((S((S(KS))K)) ((S((S(KS))K))(K((SK)K)))))))((S(K((S((S(KS))K))((S((S(KS))K))((S((S(KS))K))(K((SK)K))))))) ((SK)K))
+1² = (S(K((S((S(KS))K))(K((SK)K)))))((S(K((S((S(KS))K))(K((SK)K))))) ((SK)K))
+2² = (S(K((S((S(KS))K))((S((S(KS))K))(K((SK)K))))))((S(K((S((S(KS))K))((S((S(KS))K))(K((SK)K)))))) ((SK)K))
+3² = (S(K((S((S(KS))K))((S((S(KS))K))((S((S(KS))K))(K((SK)K)))))))((S(K((S((S(KS))K))((S((S(KS))K))((S((S(KS))K))(K((SK)K))))))) ((SK)K))
 
 
-1² (reduceret efter ovenstående "regler") = (S(K( x ( 0 ))))          ((S(K( x ( 0 )))) I )
-2² (reduceret efter ovenstående "regler") = (S(K( x ( x ( 0 )))))     ((S(K( x ( x ( 0 ))))) I )
-3² (reduceret efter ovenstående "regler") = (S(K( x ( x ( x ( 0 ))))))((S(K( x ( x ( x ( 0 )))))) I )
+1² (reduceret efter ovenstående "regler") = (S(K((x)        (0))))  ((S(K((x)        (0)))) I
+2² (reduceret efter ovenstående "regler") = (S(K((x)((x)    (0))))) ((S(K((x)((x)    (0))))) I
+3² (reduceret efter ovenstående "regler") = (S(K((x)((x)((x)(0))))))((S(K((x)((x)((x)(0)))))) I
+
+
+_______________________________
+
+3³ = (S(K((succ)((succ)((succ)(0)))))) ((S(K((succ)((succ)((succ)(0)))))) ((S(K((succ)((succ)((succ)(0)))))) I))
