@@ -1,0 +1,30 @@
+(λx.x¹) 
+
+((SK)K) 	= I = én i hver linje, afslutningsvis
+(K((SK)K))	= ^ = (K(I))
+((S((S(KS))K)) 	= ? = x's værdi repræsenteret i antal gentagelser
+
+1¹ = (S(K((S((S(KS))K))(K((SK)K)))))  ((SK)K)
+2¹ = (S(K((S((S(KS))K))((S((S(KS))K)) (K((SK)K)))))) ((SK)K)
+3¹ = (S(K((S((S(KS))K))((S((S(KS))K)) ((S((S(KS))K))(K((SK)K))))))) ((SK)K)
+4¹ = (S(K((S((S(KS))K))((S((S(KS))K)) ((S((S(KS))K))((S((S(KS))K))(K((SK)K))))))))((SK)K)
+5¹ = (S(K((S((S(KS))K))((S((S(KS))K)) ((S((S(KS))K))((S((S(KS))K))((S((S(KS))K))(K((SK)K))))))))) ((SK)K)
+
+_________________________
+
+
+(λx.x²)
+
+((SK)K)		 	= I = én i hver linje, afslutningsvis (I)
+(K((SK)K) 		= ^ = potensen udtrykt i antal gentagelser (^POW)
+((S((S(KS))K)) 		= x = x's værdi repræsenteret i antal gentagelser (x)
+(S(K((S((S(KS))K))	= ? = no idea (S(K(anvendt på x's værdi repræsenteret i antal gentagelser))
+
+1² = (S(K((S((S(KS))K))(K((SK)K)))))  ((S(K((S((S(KS))K))(K((SK)K))))) ((SK)K))
+2² = (S(K((S((S(KS))K))((S((S(KS))K)) (K((SK)K))))))((S(K((S((S(KS))K))((S((S(KS))K))(K((SK)K)))))) ((SK)K))
+3² = (S(K((S((S(KS))K))((S((S(KS))K)) ((S((S(KS))K))(K((SK)K)))))))((S(K((S((S(KS))K))((S((S(KS))K))((S((S(KS))K))(K((SK)K))))))) ((SK)K))
+
+
+1² (reduceret efter ovenstående "regler") = (S(K x ² ))))      ((S(K x ² )))) I )
+2² (reduceret efter ovenstående "regler") = (S(K x x ² )))))   ((S(K x x ² ))))) I )
+3² (reduceret efter ovenstående "regler") = (S(K x x x ² ))))))((S(K x x x ² )))))) I )
