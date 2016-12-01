@@ -1,5 +1,5 @@
 1  = (S((S(KS))K))(K((SK)K))
-2  = (S((S(KS))K))((S((S(KS))K))(K((SK)K
+2  = (S((S(KS))K))((S((S(KS))K))(K((SK)K)))
 3  = (S((S(KS))K))((S((S(KS))K))((S((S(KS))K))(K((SK)K))))
 4  = (S((S(KS))K))((S((S(KS))K))((S((S(KS))K))((S((S(KS))K))(K((SK)K)))))
 5  = (S((S(KS))K))((S((S(KS))K))((S((S(KS))K))((S((S(KS))K))((S((S(KS))K))(K((SK)K))))))
