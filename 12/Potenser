@@ -1,6 +1,8 @@
 ((SK)K)		 	=  I  = én i hver linje, afslutningsvis (I)
 K((SK)K) 		=  0  = X.java siger KI = zero
-S((S(KS))K) 		=  x  = x's værdi repræsenteret i antal gentagelser (x)
+S((S(KS))K) =  x  = x's værdi repræsenteret i antal gentagelser (x / succ)
+
+/* Sætninger slutter på (0), da træet tegnes nedefra men summeres omvendt. succ(0) = 1, osv */
 
 __________________________
 
