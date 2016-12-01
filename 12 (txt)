@@ -11,11 +11,11 @@
 5¹ = (S(K((S((S(KS))K))((S((S(KS))K)) ((S((S(KS))K))((S((S(KS))K))((S((S(KS))K))(K((SK)K))))))))) ((SK)K)
 
 
-1¹ (reduceret efter ovenstående "regler") = (S(K( x 0 )))  I
-2¹ (reduceret efter ovenstående "regler") = (S(K( x ( x 0 )))) I
-3¹ (reduceret efter ovenstående "regler") = (S(K( x ( x ( x 0 ))))) I
-4¹ (reduceret efter ovenstående "regler") = (S(K( x ( x ( x ( x 0 )))))) I
-5¹ (reduceret efter ovenstående "regler") = (S(K( x ( x ( x ( x ( x 0 ))))))) I
+1¹ (reduceret efter ovenstående "regler") = (S(K( x ( 0 ))))  I
+2¹ (reduceret efter ovenstående "regler") = (S(K( x ( x ( 0 ))))) I
+3¹ (reduceret efter ovenstående "regler") = (S(K( x ( x ( x ( 0 )))))) I
+4¹ (reduceret efter ovenstående "regler") = (S(K( x ( x ( x ( x ( 0 ))))))) I
+5¹ (reduceret efter ovenstående "regler") = (S(K( x ( x ( x ( x ( x ( 0 )))))))) I
 
 _________________________
 
@@ -32,6 +32,6 @@ _________________________
 3² = (S(K((S((S(KS))K))((S((S(KS))K)) ((S((S(KS))K))(K((SK)K)))))))((S(K((S((S(KS))K))((S((S(KS))K))((S((S(KS))K))(K((SK)K))))))) ((SK)K))
 
 
-1² (reduceret efter ovenstående "regler") = (S(K( x 0 ))))          ((S(K( x 0 )))) I )
-2² (reduceret efter ovenstående "regler") = (S(K( x ( x 0 )))))     ((S(K( x ( x 0 ))))) I )
-3² (reduceret efter ovenstående "regler") = (S(K( x ( x ( x 0 ))))))((S(K( x ( x ( x 0 )))))) I )
+1² (reduceret efter ovenstående "regler") = (S(K( x ( 0 ))))          ((S(K( x ( 0 )))) I )
+2² (reduceret efter ovenstående "regler") = (S(K( x ( x ( 0 )))))     ((S(K( x ( x ( 0 ))))) I )
+3² (reduceret efter ovenstående "regler") = (S(K( x ( x ( x ( 0 ))))))((S(K( x ( x ( x ( 0 )))))) I )
