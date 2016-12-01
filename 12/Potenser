@@ -2,7 +2,7 @@
 K((SK)K) 		=  0  = X.java siger KI = zero
 S((S(KS))K) =  x  = x's værdi repræsenteret i antal gentagelser (x / succ)
 
-/* Sætninger slutter på (0), da træet tegnes venstre/nedefra. succ(0) = 1, osv */
+/* Sætninger slutter på (0), da træet tegnes venstre/nedefra. succ(0) = i+1 = 0+1 = 1, osv */
 
 __________________________
 
