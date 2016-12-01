@@ -1,8 +1,9 @@
 (λx.x¹) 
 
-((SK)K) 	= I = én i hver linje, afslutningsvis
-(K((SK)K))	= 0 = (K(I))
-(S((S(KS))K)) 	= ? = x's værdi repræsenteret i antal gentagelser
+((SK)K)		 	=  I  = én i hver linje, afslutningsvis (I)
+(K((SK)K) 		=  0  = X.java siger KI = zero
+(S((S(KS))K)) 		=  x  = x's værdi repræsenteret i antal gentagelser (x)
+(S(K((S((S(KS))K))	= i+1 = (S(K(x)))
 
 1¹ = (S(K((S((S(KS))K))(K((SK)K)))))  ((SK)K)
 2¹ = (S(K((S((S(KS))K))((S((S(KS))K)) (K((SK)K)))))) ((SK)K)
@@ -22,10 +23,10 @@ _________________________
 
 (λx.x²)
 
-((SK)K)		 	= I = én i hver linje, afslutningsvis (I)
-(K((SK)K) 		= 0 = X.java siger KI = zero
-(S((S(KS))K)) 		= x = x's værdi repræsenteret i antal gentagelser (x)
-(S(K((S((S(KS))K))	= ? = no idea (S(K(x)))
+((SK)K)		 	=  I  = én i hver linje, afslutningsvis (I)
+(K((SK)K) 		=  0  = X.java siger KI = zero
+(S((S(KS))K)) 		=  x  = x's værdi repræsenteret i antal gentagelser (x)
+(S(K((S((S(KS))K))	= i+1 = (S(K(x)))
 
 1² = (S(K((S((S(KS))K))(K((SK)K)))))  ((S(K((S((S(KS))K))(K((SK)K))))) ((SK)K))
 2² = (S(K((S((S(KS))K))((S((S(KS))K)) (K((SK)K))))))((S(K((S((S(KS))K))((S((S(KS))K))(K((SK)K)))))) ((SK)K))
