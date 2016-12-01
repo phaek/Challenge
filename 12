@@ -10,13 +10,20 @@
 4¹ = (S(K((S((S(KS))K))((S((S(KS))K)) ((S((S(KS))K))((S((S(KS))K))(K((SK)K))))))))((SK)K)
 5¹ = (S(K((S((S(KS))K))((S((S(KS))K)) ((S((S(KS))K))((S((S(KS))K))((S((S(KS))K))(K((SK)K))))))))) ((SK)K)
 
+
+1¹ (reduceret efter ovenstående "regler") = (S(K( x ¹ )))  I
+2¹ (reduceret efter ovenstående "regler") = (S(K( x x ¹ ))) I
+3¹ (reduceret efter ovenstående "regler") = (S(K( x x x ¹ ))) I
+4¹ (reduceret efter ovenstående "regler") = (S(K( x x x x ¹ ))) I
+5¹ (reduceret efter ovenstående "regler") = (S(K( x x x x x ¹ ))) I
+
 _________________________
 
 
 (λx.x²)
 
 ((SK)K)		 	= I = én i hver linje, afslutningsvis (I)
-(K((SK)K) 		= ^ = potensen udtrykt i antal gentagelser (^POW)
+(K((SK)K) 		= ^ = potensen udtrykt i antal gentagelser (K(I)) er ^pow
 ((S((S(KS))K)) 		= x = x's værdi repræsenteret i antal gentagelser (x)
 (S(K((S((S(KS))K))	= ? = no idea (S(K(x)))
 
