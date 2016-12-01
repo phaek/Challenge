@@ -18,7 +18,7 @@ _________________________
 ((SK)K)		 	= I = én i hver linje, afslutningsvis (I)
 (K((SK)K) 		= ^ = potensen udtrykt i antal gentagelser (^POW)
 ((S((S(KS))K)) 		= x = x's værdi repræsenteret i antal gentagelser (x)
-(S(K((S((S(KS))K))	= ? = no idea (S(K(anvendt på x's værdi repræsenteret i antal gentagelser))
+(S(K((S((S(KS))K))	= ? = no idea (S(K(x)))
 
 1² = (S(K((S((S(KS))K))(K((SK)K)))))  ((S(K((S((S(KS))K))(K((SK)K))))) ((SK)K))
 2² = (S(K((S((S(KS))K))((S((S(KS))K)) (K((SK)K))))))((S(K((S((S(KS))K))((S((S(KS))K))(K((SK)K)))))) ((SK)K))
