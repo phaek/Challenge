@@ -5,8 +5,8 @@
 5  = (S((S(KS))K))((S((S(KS))K))((S((S(KS))K))((S((S(KS))K))((S((S(KS))K))(K((SK)K))))))
 
 
-1  β -> (succ)(0)
-2  β -> (succ)((succ)(0))
-3  β -> (succ)((succ)((succ)(0)))
-4  β -> (succ)((succ)((succ)((succ)(0))))
-5  β -> (succ)((succ)((succ)((succ)((succ)(0)))))
+1  -> (succ)(0)
+2  -> (succ)((succ)(0))
+3  -> (succ)((succ)((succ)(0)))
+4  -> (succ)((succ)((succ)((succ)(0))))
+5  -> (succ)((succ)((succ)((succ)((succ)(0)))))
