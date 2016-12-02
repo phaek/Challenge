@@ -1,0 +1,16 @@
+(pred)(-1)= K((SK)K)
+(pred)(0) = K((SK)K)
+(pred)(1) = K((SK)K)
+(pred)(2) = (S((S(KS))K))(K((SK)K))
+(pred)(3) = (S((S(KS))K))((S((S(KS))K))(K((SK)K)))
+(pred)(4) = (S((S(KS))K))((S((S(KS))K))((S((S(KS))K))(K((SK)K))))
+(pred)(5) = (S((S(KS))K))((S((S(KS))K))((S((S(KS))K))((S((S(KS))K))(K((SK)K)))))
+
+
+(pred)(-1)β -> 0
+(pred)(0) β -> 0
+(pred)(1) β -> 0
+(pred)(2) β -> (succ)(0)
+(pred)(3) β -> (succ)((succ)(0))
+(pred)(4) β -> (succ)((succ)((succ)(0)))
+(pred)(5) β -> (succ)((succ)((succ)((succ)(0))))
