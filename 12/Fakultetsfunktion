@@ -1,4 +1,4 @@
-n! = λΓ(1+x), som bør translates med fixed-point combinators.
+n! = λΓ(1+x), som bør sandsynligvis translates med fixed-point combinators og Y.
 
 1: λΓ(1+x)
 2: ?
@@ -18,15 +18,20 @@ KK)))))))(K((SI)(KK))))))))))(K(K((S((S((S(KS))((S(KK))(
 
 
 laptop@rasmus:~/Desktop$ java X constant < fac1
-1
+1 @11 milliseconds
 laptop@rasmus:~/Desktop$ java X constant < fac2
-2
+2 @21 milliseconds
 laptop@rasmus:~/Desktop$ java X constant < fac3
-6
+6 @27 milliseconds
 laptop@rasmus:~/Desktop$ java X constant < fac4
-24
+24 @40 milliseconds
 laptop@rasmus:~/Desktop$ java X constant < fac5
-120
+120 @222 milliseconds
 laptop@rasmus:~/Desktop$ java X constant < fac6
-720
+720 @10361 milliseconds
+laptop@rasmus:~/Desktop$ java X constant < fac7
+5040 @1329793 milliseconds
+
+/* Pas på ved n>6 */
+
 ________________________________________________________________________________
