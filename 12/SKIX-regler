@@ -1,3 +1,12 @@
+X a → a K S K
+S a b c → (a c) (b c)
+K a b → a
+I a → a
+
+K = (XX)X
+S = X(XX)
+I = SKK
+
 ((SK)K)     =  I  = én i hver linje, afslutningsvis (I)
 K((SK)K)    =  0  = X.java siger KI = zero
 S((S(KS))K) =  x  = x's værdi repræsenteret i antal gentagelser (x / succ)
