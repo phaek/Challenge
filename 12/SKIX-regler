@@ -5,10 +5,10 @@ I a 		→ a
 
 (a) 		→ a
 (E1 E2) 	→ (S (E1) (S (E2)))
-(λa.E)          → (K (S (E))), hvis x ikke forekommer i E
-(λa.a)          → I
-(λa1.λa2.E)	→ S (λa1.S (λa2.E))
-(λa.(E1 E2))    → (S (S (λ.a.E1)) (S (λa.E2)))
+(λx.E)          → (K (S (E))), hvis x ikke forekommer i E
+(λx.x)          → I
+(λx1.λx2.E)	→ S (λx1.S (λx2.E))
+(λx.(E1 E2))    → (S (S (λ.x.E1)) (S (λx.E2)))
 
 Hvilket oversættes til 
 [x](E1 E2) = S [x]E1 [x]E2, hvis x forekommer i E1 eller i E2
