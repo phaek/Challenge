@@ -1,9 +1,8 @@
-n! = λΓ(1+x), som bør sandsynligvis translates med fixed-point combinators og Y.
 
-1: λΓ(1+x)
-2: ?
-3: ?
-4: profit
+For at opnå fakultetsfunktionen, skal vi implementere rekursion, hvilket kun kan ske med et hack af 
+Y-kombinatoren, som tillader rekursion i miljøer der ikke naturligt understøtter det:
+
+Y = λf.(λx.f(xx))(λx.f(xx))
 
 ________________________________________________________________________________
 Fundet via bruteforcing af kombinationer der tjekkede for kode(6)==720. #artless
