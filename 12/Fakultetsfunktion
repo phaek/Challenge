@@ -5,7 +5,7 @@ Y-kombinatoren, som tillader rekursion i miljøer der ikke naturligt understøtt
 Y = λf.(λx.f(xx))(λx.f(xx))
 
 ________________________________________________________________________________
-Fundet via bruteforcing af kombinationer der tjekkede for kode(6)==720. #artless
+Fundet via bruteforcing af kombinationer der tjekkede for (kode)6==720. #artless
 
 ! = (((SS)K)((S(K((SS)(S((SS)K)))))K))((S(K(S((S((S((SI)
 (K(K(0)))))(KK)))(K((succ)(0)))))))((S(K(succ)))((succ)(
