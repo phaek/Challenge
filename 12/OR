@@ -1,11 +1,6 @@
-Udtrykket 'OR' kan tilskrives via allerede tilgængelige booleanske udtryk, og derfor blot ekstraheres fra kendt materiale.
-
 or  =  not(and(not a)(not b))
 
-[snipped]
-[snipped]
-[snipped]
-[snipped]
-[snipped]
-
-or → [snipped]
+or → (S(K(S(K(S(SI(K(SK)))(KK)))))
+(S(K(S(S(K(S(S(KS)I)(K(K(SK)))))(S
+(K(S(SI(K(SK)))(KK)))I))))(S(KK)(S
+(K(S(SI(K(SK)))(KK)))I))))
