@@ -1,17 +1,7 @@
 Less-than or equal (le) = (iszero(a-b))
 
-
-[snipped]
-[snipped]
-[snipped]
-[snipped]
-[snipped]
-[snipped]
-[snipped]
-[snipped]
-[snipped]
-[snipped]
-[snipped]
-[snipped]
-
-le → [snipped]
+le → (S(K(S(K(((S(SI(K(K(SK))))(KK))))))
+(S(K(S(SI(K(S(K(SI(K(KI))))(S(SI(K(S(K(S
+(K(S(SI(K(KI)))))K))(S(S(SI(KK))(SI(K(KI)
+)))(S(K(S(S(KS)K)))(SI(K(KI))))))))(K(S(S
+I(KK))(K(KI))))))))))(S(KK)I))
