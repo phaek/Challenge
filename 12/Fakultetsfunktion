@@ -7,13 +7,7 @@ Y = λf.(λx.f(xx))(λx.f(xx))
 ________________________________________________________________________________
 Fundet via bruteforcing af kombinationer der tjekkede for (kode)6==720. #artless
 
-! = (((SS)K)((S(K((SS)(S((SS)K)))))K))((S(K(S((S((S((SI)
-(K(K(0)))))(KK)))(K((succ)(0)))))))((S(K(succ)))((succ)(
-K((S(K(S(K(S(K((SI)(K(0)))))))))((S((S(KS))((S(K(S(KS)))
-)((S(K(S(KK))))((succ)(K((S((S(KS))((S(K(S(K((S((S(KS))(
-(S(KK))((S(KS))((S(K(SI)))K)))))(KK))))))((succ)(K((SI)(
-KK)))))))(K((SI)(KK))))))))))(K(K((S((S((S(KS))((S(KK))(
-(S(KS))((S(K(SI)))K)))))(KK)))I)))))))))
+! = [snipped]
 
 
 laptop@rasmus:~/Desktop$ java X constant < fac1
