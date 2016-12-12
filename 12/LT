@@ -1,5 +1,22 @@
-Less-than = [snipped]
+Less-than = (iszero (b pred (succ a)))
 
-[snipped]
+[a,b] (iszero (b pred (succ a)))
+[a] [b](iszero (b pred (succ a)))
+[a] (S [b]iszero  [b](b pred (succ a)))
+[a] (S [b]iszero  [b]((b pred )(succ a)))
+[a] (S (K iszero)  (S [b](b pred ) [b](succ a)))
+[a] (S (K iszero)  (S (S [b]b [b]pred ) (K(succ a))))
+[a] (S (K iszero)  (S (S I (K pred)) (K(succ a))))
+[a] (S (K iszero)  (S (S I (K pred)) (K(succ a))))
 
-lt → [snipped]
+
+[a] ( S (K iszero)    (S (S I (K pred)) (K(succ a))))
+[a] ((S (K iszero))   (S (S I (K pred)) (K(succ a))))
+(S  (K(S (K iszero)))[a](S (S I (K pred)) (K(succ a))))
+(S  (K(S (K iszero))) (S [a](S (S I (K pred))) [a](K(succ a))))
+(S  (K(S (K iszero))) (S (K(S (S I (K pred)))) [a](K(succ a))))
+(S  (K(S (K iszero))) (S (K(S (S I (K pred)))) (S [a]K [a](succ a))))
+(S  (K(S (K iszero))) (S (K(S (S I (K pred)))) (S (KK) (S [a]succ [a]a))))
+(S  (K(S (K iszero))) (S (K(S (S I (K pred)))) (S (KK) (S (K succ) I))))
+
+lt → (S(K(S(K iszero)))(S(K(S(SI(K pred))))(S(KK)(S(K succ)I))))
