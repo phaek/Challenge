@@ -1,3 +1,16 @@
-Less-than or equal (le) = [snipped]
+Less-than or equal (le) = (iszero(a-b))
+ 
+1:[a,b] iszero (a pred b)
+2:[b] [a] iszero (a pred b) 
+3:[b] S [a]iszero [a](a pred b)
+4:[b] S (K iszero) (S [a](a pred) [a]b)
+5:[b] S (K iszero) (S (S [a]a [a]pred) (K b))
+6:[b] S (K iszero) (S (S I (K pred)) (K b))
 
-le → [snipped]
+
+1:[b] S (K iszero) (S (S I (K pred)) (K b))
+2:[b] (S (K iszero)) (S (S I (K pred)) (K b))
+3:(S (K(S (K iszero))) [b] (S (S I (K pred)) (K b)))
+
+
+le → (S(K(S(K iszero)))(S(K(S(SI(K pred))))(S(KK)I))
