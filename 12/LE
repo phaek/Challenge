@@ -11,6 +11,7 @@ Less-than or equal (le) = (iszero(a-b))
 1:[b] S (K iszero) (S (S I (K pred)) (K b))
 2:[b] (S (K iszero)) (S (S I (K pred)) (K b))
 3:(S (K(S (K iszero))) [b] (S (S I (K pred)) (K b)))
+[missing stuff]
 
 
 le → (S(K(S(K iszero)))(S(K(S(SI(K pred))))(S(KK)I))
